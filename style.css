@@ -9,6 +9,25 @@ td {
 	cursor: pointer;
 }
 
+.replay-button {
+    background-color: #e42218;
+    color: white;
+    border: 0ch;
+    height: 36px;
+    width: 115px;
+    font-size: 14.5px;
+    border-radius: 2.5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: opacity 0.15s;
+  }
+  .replay-button:hover {
+    opacity: 0.7;
+  }
+  .replay-button:active{
+    opacity: 0.4;
+  }
+
 table {
 	border-collapse: collapse;
 	position: absolute;
